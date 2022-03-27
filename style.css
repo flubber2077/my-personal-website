@@ -1,0 +1,36 @@
+body {
+    background: whitesmoke;
+    font-family: Sans-Serif;
+  }
+
+  .sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(250, 195, 42); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+
+  /* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+
+}
+
+h1 {
+  font-size:5vw;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  font-size:2em;
+}
+
+p {
+  font-size: 1.7em;
+}
