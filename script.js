@@ -1,13 +1,12 @@
-const h2 = document.createElement("h2");
-h2.textContent = "";
+document.getElementById("toBlue").onclick = function () {
+    document.body.style.background = 'lightblue';
+}
 
-document.querySelector("body").appendChild(h2);
+/*input.addEventListener("click", function () {
+    var red = (Math.random() * 100) + 150;
+    var blue = (Math.random() * 100) + 150;
+    var green = (Math.random() * 100) + 150;//`rgb (${red}, ${blue}, ${green}`;
+    //document.body.style.background = `rgb(200, 200, 250)`;
+});*/
 
-const input = document.getElementById('sidenav');
-input.addEventListener('click', function() {
-let red = (Math.random() * 100) + 150;
-let blue = (Math.random() * 100) + 150;
-let green = (Math.random() * 100) + 150;
-let backgroundColor = `rgb (${red}, ${blue}, ${green}`;
-document.body.style.background = backgroundColor;
-});
+//document.body.style.background = "rgb(200, 200, 250)";
